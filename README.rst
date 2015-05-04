@@ -21,15 +21,38 @@ The full documentation is at https://mezzanine-buffer.readthedocs.org.
 Quickstart
 ----------
 
+This assumes you already have a Mezzanine_ install.
+
+.. _Mezzanine: http://mezzanine.jupo.org
+
 Install mezzanine-buffer::
 
     pip install mezzanine-buffer
 
-Then use it in a project::
+Then use it in a project:
 
-    import mezzanine-buffer
+- Add the following to your installed_apps::
+
+    "mezzanine_buffer"
+
+- Create a Buffer_ account (if you don't have one already)
+
+.. _Buffer: http://buffer.com
+
+- Create a `Buffer App`_ for your Mezzanine site.  You will receive an email with your client key, client secret,
+ and access token
+.. _Buffer App: https://buffer.com/developers/apps/create
+
+- Enter your client key, client secret, and access token into your Mezzanine site settings.
 
 Features
 --------
 
-* TODO
+- Adds a list of your Buffer profiles to the status section of any :python:`Displayable` admin.
+- If the publish_date of :python:`Displayable` is in the future, it will be scheduled for that time.
+
+TODO
+----
+
+- tests
+- proper multi-profile support (buffpy doesn't support it)

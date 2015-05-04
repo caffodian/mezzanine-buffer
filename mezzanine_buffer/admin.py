@@ -5,15 +5,13 @@ from django.utils.safestring import mark_safe
 from django.utils.translation import ugettext_lazy as _
 from django.template.defaultfilters import truncatechars
 
-from mezzanine_buffer import get_auth_settings, get_profiles
 from mezzanine.blog.admin import BlogPostAdmin
 from mezzanine.blog.models import BlogPost
 
 
 from buffpy import API
 from django.utils import timezone
-
-
+from mezzanine_buffer.utils import get_auth_settings, get_profiles
 
 
 class BufferableAdminMixin(object):
