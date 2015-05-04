@@ -48,8 +48,8 @@ Then use it in a project:
 Features
 --------
 
-- Adds a list of your Buffer profiles to the status section of any :python:`Displayable` admin.
-- If the publish_date of :python:`Displayable` is in the future, it will be scheduled for that time.
+- Adds a list of your Buffer profiles to the status section of any `Displayable` admin.
+- If the publish_date of `Displayable` is in the future, it will be scheduled for that time.
 
 TODO
 ----
