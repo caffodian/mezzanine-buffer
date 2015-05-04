@@ -1,4 +1,5 @@
-__author__ = 'caffodian'
+from buffpy.api import API
+from buffpy.managers.profiles import Profiles
 
 
 def get_auth_settings():
