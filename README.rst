@@ -27,7 +27,9 @@ This assumes you already have a Mezzanine_ install.
 
 Install mezzanine-buffer::
 
-    pip install mezzanine-buffer
+    pip install mezzanine-buffer  --process-dependency-links
+
+Unfortunately, the process-dependency-links is required until buffer-python is updated on pypi.
 
 Then use it in a project:
 
