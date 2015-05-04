@@ -40,7 +40,7 @@ setup(
         "buffer-python >= 1.08"
     ],
     dependency_links=[
-        "https://github.com/vtemian/buffpy/tarball/master#egg=buffer-python-1.8"
+        "https://github.com/vtemian/buffpy/tarball/master/"
     ],
     license="BSD",
     zip_safe=False,
