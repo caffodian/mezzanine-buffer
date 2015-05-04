@@ -58,3 +58,4 @@ TODO
 
 - tests
 - proper multi-profile support (buffpy doesn't support it)
+- error handling (max 10 updates per profile, rate limits etc)
