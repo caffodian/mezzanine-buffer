@@ -37,10 +37,10 @@ setup(
     include_package_data=True,
     install_requires=[
         "requests >= 2.1.0",
-        "buffer-python >= 1.8"
+        "buffer-python >= 1.08"
     ],
     dependency_links=[
-        "https://github.com/vtemian/buffpy/tarball/master/"
+        "https://github.com/vtemian/buffpy/tarball/master#egg=buffer-python-1.08"
     ],
     license="BSD",
     zip_safe=False,
